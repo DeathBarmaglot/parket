@@ -1,0 +1,11 @@
+* {margin:0;padding:0;}
+body,html { background-color:#000; width:100%; height:100%; overflow:hidden; }#b {border:2px solid white;}
+#m {border:2px solid white;}
+#lo {transform-origin:center;}
+#c {border:2px solid white;}
+#root { transform-origin:center; position:relative; left:0px; top:100px; width:420px; height:150px; overflow:hidden; 
+  background:url("https://raw.githubusercontent.com/DeathBarmaglot/parket/main/f.jpg") no-repeat;}
+@keyframes ro {0% {transform:rotateX(0deg);opacity:0;}2% {transform:rotateX(360deg);opacity:1;}32% {transform:rotateY(360deg);opacity:1;left:150px;}34% {transform:rotateX(0deg);opacity:0;left:250px;}100% {opacity:0; }}
+@keyframes ani {0%,34%,100% {transform:scale3d(0,0,0);opacity:0;}2%,32% {transform:scale3d(1,1,1);opacity:1;}}
+@keyframes an {0%,32%,66%,100% {transform:scale3d(0,0,0);opacity:0;}34%,64% {transform:scale3d(1,1,1);opacity:1;}}
+@keyframes ano {0%,63%,100% {transform:scale3d(0,0,0);opacity:0;}65%,99% {transform:scale3d(1,1,1);opacity:1;}}
